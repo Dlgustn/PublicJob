@@ -49,11 +49,3 @@ def contentParse(contentData, notFoundValue):
                 break  # 외부 루프 종료
     
     return resultLine
-
-#contentData = """
-#보 수 :1254123524356
-#"""
-#notFoundValue = '임금조건'
-
-#a = contentParse(contentData, notFoundValue)
-#print(a)
